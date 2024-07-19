@@ -25,6 +25,7 @@ public class Emp {
 	//para
 	public Emp(Address address) {
 		super();
+         System.out.println("I am constructor");
 		this.address = address;
 	}
 
