@@ -11,6 +11,7 @@ public class Test {
 		   new ClassPathXmlApplicationContext("com/springcore/stereo/configst.xml");
    Student sp=context.getBean("ob",Student.class);
    System.out.println(sp);
+   System.out.println("hello");
 	}
 
 }
